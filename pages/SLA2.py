@@ -7,7 +7,7 @@ st.set_page_config(page_title="SLA Atendimentos", page_icon="🏍️")
 st.title("Controle SLA Atendimentos 🏍️💨")
 
 # Carregar os dados do arquivo Excel
-df_SLA = pd.read_excel("Database\IndicadorSLA.xlsx")
+df_SLA = pd.read_excel("IndicadorSLA.xlsx")
 
 # Mostrar os dados brutos
 st.write(df_SLA)

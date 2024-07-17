@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="SLA Atendimentos", page_icon="🏍️")
 st.title("Controle SLA Atendimentos 🏍️💨")
-df_SLA = pd.read_excel("Database\IndicadorSLA.xlsx")
+df_SLA = pd.read_excel("IndicadorSLA.xlsx")
 st.markdown("Dados Originais")
 st.write(df_SLA)
 
