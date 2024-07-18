@@ -21,8 +21,8 @@ for semana in range(1, 6):  # de semana 1 a semana 5
 
     # Criar o gráfico para a semana específica
     fig, ax = plt.subplots(figsize=(10, 6))
-    ax.plot(df_SLA_Semana['Data'], df_SLA_Semana['SLA Atendimento Meta (%)'], label='SLA Atendimento Meta (%)', marker='o')
-    ax.plot(df_SLA_Semana['Data'], df_SLA_Semana['SLA Atendimento Realizado (%)'], label='SLA Atendimento Realizado (%)', marker='o')
+    ax.plot(df_SLA_Semana['Data'], df_SLA_Semana['SLA Atendimento Meta (%)'], label='SLA Atendimento Meta (%)', marker='^',color='green')
+    ax.plot(df_SLA_Semana['Data'], df_SLA_Semana['SLA Atendimento Realizado (%)'], label='SLA Atendimento Realizado (%)', marker='o',color='black')
 
     # Adicionar título e rótulos
     ax.set_title(f'SLA Atendimento - Semana {semana} de Julho')
